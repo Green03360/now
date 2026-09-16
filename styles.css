@@ -1,8 +1,7 @@
-body {
-  font-family: system-ui, sans-serif;
-  margin: 0;
-  padding: 2rem;
-  background: #f6f8fa;
+/* Dark theme styles */
+body[data-theme="dark"] {
+  background-color: #111;
+  color: #eee;
 }
 
 header {
