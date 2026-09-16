@@ -4,23 +4,37 @@ body[data-theme="dark"] {
   color: #eee;
 }
 
-body[data-theme="dark"] header {
-  background-color: #000;
-}
-
-body[data-theme="dark"] a {
+header {
+  background-color: #222;
   color: #fff;
 }
 
-#theme-toggle {
-  padding: 0.5rem 1rem;
-  background: #444;
-  color: #fff;
-  border: none;
-  cursor: pointer;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
 }
 
-#theme-toggle:hover {
-  background: #666;
+.logo {
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
 }
 
